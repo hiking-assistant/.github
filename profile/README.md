@@ -1,4 +1,18 @@
-# Hiking Assistant
+<p align="center">
+  <img src="https://github.com/hiking-assistant/.github/blob/main/profile/logo.png?raw=true" height="300" alt="hiking assistant logo">
+</p>
+
+<h1 align="center">Hiking Assistant</h1>
+
+<p align="center">
+  <a href="https://github.com/hiking-assistant/watch">watch</a>
+  |
+  <a href="https://github.com/hiking-assistant/receiver">receiver</a>
+  |
+  <a href="https://github.com/hiking-assistant/web-ui">web-ui</a>
+  |
+  <a href="https://github.com/hiking-assistant/.github">.github</a>
+</p>
 
 Hiking Assistant is a multi-repository embedded systems project built around a **LilyGo T-Watch 2020 V3**, a **Raspberry Pi receiver**, and a **web UI** for viewing synchronized hiking sessions.
 
