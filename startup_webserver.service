@@ -1,0 +1,24 @@
+[Unit]
+Description=Starup script for Hiking Assistant Web-server
+After=multi-user.target
+
+[Service]
+Type=idle
+User=user
+User=user
+WorkingDirectory=/home/user/hiking-assistant/web-ui
+ExecStart=/bin/bash -lc 'source /home/user/hiking-assistant/.venv/bin/activate && exec flask run'
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
+
+
+
+
+
+# Steps:
+# Place in /lib/systemd/system/startup_webserver.service
+# sudo systemctl daemon-reload
+# sudo systemctl enable startup_webserver.service
+# sudo systemctl start startup_webserver.service
