@@ -8,7 +8,7 @@ A core design choice across the system is **explicit state transition modeling**
 
 ## Repositories
 
-### `watch`
+### [`watch`](https://github.com/hiking-assistant/watch)
 Firmware for the **LilyGo T-Watch 2020 V3**.
 
 Responsibilities:
@@ -22,7 +22,7 @@ Responsibilities:
 - receive wall-clock time from the Raspberry Pi after boot
 - model session and recovery behavior through explicit state transitions
 
-### `receiver`
+### [`receiver`](https://github.com/hiking-assistant/receiver)
 Backend/service running on the **Raspberry Pi**.
 
 Responsibilities:
@@ -33,7 +33,7 @@ Responsibilities:
 - acknowledge each stored session explicitly
 - persist synchronized session data into the server-side database
 
-### `web-ui`
+### [`web-ui`](https://github.com/hiking-assistant/web-ui)
 Frontend and web backend for browsing synchronized hiking sessions.
 
 Responsibilities:
@@ -46,7 +46,7 @@ Responsibilities:
 
 The web UI is intended to be usable **completely offline**. The target deployment model is that users connect directly to the Raspberry Pi through its local hotspot / access point and access the interface without any Internet connection. The hotspot-based access workflow is planned but not yet implemented.
 
-### `.github`
+### [`.github`](https://github.com/hiking-assistant/.github)
 Shared organization-level assets and operational setup.
 
 This repository should contain:
